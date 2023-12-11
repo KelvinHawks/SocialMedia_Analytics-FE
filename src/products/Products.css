@@ -1,0 +1,28 @@
+.products_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.products-nav_container {
+  padding: 23px;
+  justify-content: space-between;
+  display: flex;
+}
+.div_left {
+  display: flex;
+  gap: 23px;
+}
+.div_right {
+  display: flex;
+  gap: 23px;
+}
+.card_div {
+  margin: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}

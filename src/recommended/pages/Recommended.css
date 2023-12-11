@@ -1,0 +1,12 @@
+.recommended_div {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 23px;
+}
+.recommended_div button {
+  background-color: transparent;
+  border: none;
+  color: #565656;
+}

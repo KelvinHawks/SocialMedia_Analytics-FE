@@ -1,0 +1,98 @@
+.btn_div {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+.user-item__image {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.form-control {
+  display: flex;
+  flex: 4;
+  width: 100%;
+  align-items: center;
+}
+.flex_left {
+  flex: 2;
+}
+
+.flex_right {
+  display: flex;
+
+  gap: 40px;
+  width: 100%;
+
+  align-items: center;
+  flex: 2;
+}
+.cart_btn {
+  position: relative;
+}
+.cart_quantity {
+  position: absolute;
+  color: #fff;
+  top: -8px;
+  right: -8px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: brown;
+}
+/* Basic styling for the search container */
+.search-container {
+  position: relative;
+  display: flex;
+  /* Adjust width as needed */
+  border-radius: 33px;
+  background-color: #ddd;
+  padding: 8px 12px;
+
+  align-items: center;
+}
+
+/* Style for the input field */
+.search-container input[type="text"] {
+  background-color: transparent;
+  margin-left: 20px;
+  flex: 1;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+}
+
+/* Style for the search icon button */
+.search-container .search_btn {
+  color: #404040;
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+.search-container .onClear {
+  position: absolute;
+  right: 0;
+  color: #404040;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 12px;
+}
+.prefered_search {
+  color: rgb(85, 85, 255);
+  padding: 4px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}

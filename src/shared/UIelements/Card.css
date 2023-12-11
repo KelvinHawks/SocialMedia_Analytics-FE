@@ -1,0 +1,60 @@
+.card_container {
+  width: 170px;
+  min-height: 200px;
+  padding: 6px 24px;
+  text-align: start;
+  box-shadow: 2px 2px 5px 2px #ddd;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.card_container img {
+  width: 100%;
+}
+.rating {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.stars {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.description {
+  color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.description h2 {
+  font-size: 18px;
+  padding: 0;
+}
+.small p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: #626262;
+}
+.stars i {
+  color: goldenrod;
+  font-size: 9px;
+}
+.rating p {
+  font-size: 14px;
+}
+.rating button {
+  width: 70px;
+  border: 1px solid rgb(0, 98, 255);
+  background-color: transparent;
+  color: rgb(0, 94, 255);
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+}

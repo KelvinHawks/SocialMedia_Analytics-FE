@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-options select {
+  background: transparent;
+  border: none;
+  padding: 8px;
+}
+.Electronic-filter_btn {
+  background-color: transparent;
+  padding: 9px;
+  border: none;
+  font-size: 16px;
+}
+.arrow {
+  margin-left: 12px;
+}
+/* Assume you have styles for your dropdown */
+/* .arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  margin-left: 5px;
+  border-width: 7px 6px 0 6px;
+} */
